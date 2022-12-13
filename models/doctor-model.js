@@ -36,6 +36,10 @@ specialist:{
   type: String,
   required: [true, "Please provide the field of specialist"],
 },
+hospital:{
+  type: String,
+  required: [true, "Please provide the field of hospital"],
+},
 profileImage: {
   imagePublicId: {
     type: String,

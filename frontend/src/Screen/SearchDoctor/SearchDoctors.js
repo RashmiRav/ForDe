@@ -89,6 +89,9 @@ const Appointmenthistory = (props) => {
                                   Specialist :{Treatment.specialist}
                                 </Card.Text>
                                 <Card.Text className="cards-text" style={{ font: " bold 20px/25px Times New Roman,serif" }}>
+                                  Hospital:{Treatment.hospital}
+                                </Card.Text>
+                                <Card.Text className="cards-text" style={{ font: " bold 20px/25px Times New Roman,serif" }}>
                                   Experience:  {Treatment.experience}
                                 </Card.Text>
                                 <Card.Text  className="cards-text" style={{ font: " bold 20px/25px Times New Roman,serif" }}>

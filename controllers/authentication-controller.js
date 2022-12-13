@@ -46,7 +46,7 @@ exports.login = async (req, res, next) => {
 
 // register new Doctor
 exports.registerDoctor = async (req, res) => {
-  const { username, email, password,fullname ,phone,specialist} =
+  const { username, email, password,fullname ,phone,specialist,hospital} =
     req.body;
   //check for users with same email address 
   let existingEmail = await findEmailDuplicates(email, res);
@@ -60,6 +60,7 @@ exports.registerDoctor = async (req, res) => {
         fullname ,
         phone,
         specialist,
+        hospital
       });
       const token = await doctor.getSignedToken();
       addToAllUsers(username, email, "doctor");

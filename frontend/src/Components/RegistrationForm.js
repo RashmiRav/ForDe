@@ -11,6 +11,7 @@ const RegistrationForm = () => {
     const [specialist, setspecialist] = useState("");
     const [qulifications, setqulifications] = useState("");
     const [license, setlicense] = useState("");
+    const [hospital, sethospital] = useState("");
 
     
     const [email, setEmail] = useState("");
@@ -74,6 +75,7 @@ const RegistrationForm = () => {
           fullname ,
         phone,
         specialist,
+        hospital
         };
         await axios
           .post(`/codebusters/api/auth/reg-doctor`, postObject)
@@ -345,7 +347,20 @@ const RegistrationForm = () => {
                     }}
                   />
                   </Form.Group>                 
-                </Form.Row>                
+                </Form.Row>    
+                <Form.Row>
+                  <Form.Group as={Col} md={6}>
+                    <Form.Label>Hospital Name:&nbsp;</Form.Label>
+                    <Form.Control
+                    type="text"
+                    placeholder="Field of hospital"
+                    value={hospital}
+                    onChange={(e) => {
+                      sethospital(e.target.value);
+                    }}
+                  />
+                  </Form.Group>                 
+                </Form.Row>            
               </div>
             )}
             {role === "labchemist" && (
