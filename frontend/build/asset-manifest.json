@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3fac2a1.chunk.css",
+    "main.js": "/static/js/main.c7ce9f3c.chunk.js",
+    "main.js.map": "/static/js/main.c7ce9f3c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c45f7dbe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c45f7dbe.js.map",
+    "static/css/2.ecdd39c8.chunk.css": "/static/css/2.ecdd39c8.chunk.css",
+    "static/js/2.35944125.chunk.js": "/static/js/2.35944125.chunk.js",
+    "static/js/2.35944125.chunk.js.map": "/static/js/2.35944125.chunk.js.map",
+    "static/js/3.f5fe0aaa.chunk.js": "/static/js/3.f5fe0aaa.chunk.js",
+    "static/js/3.f5fe0aaa.chunk.js.map": "/static/js/3.f5fe0aaa.chunk.js.map",
+    "static/js/4.a615c6e3.chunk.js": "/static/js/4.a615c6e3.chunk.js",
+    "static/js/4.a615c6e3.chunk.js.map": "/static/js/4.a615c6e3.chunk.js.map",
+    "static/js/5.524c4fef.chunk.js": "/static/js/5.524c4fef.chunk.js",
+    "static/js/5.524c4fef.chunk.js.map": "/static/js/5.524c4fef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ecdd39c8.chunk.css.map": "/static/css/2.ecdd39c8.chunk.css.map",
+    "static/css/main.d3fac2a1.chunk.css.map": "/static/css/main.d3fac2a1.chunk.css.map",
+    "static/js/2.35944125.chunk.js.LICENSE.txt": "/static/js/2.35944125.chunk.js.LICENSE.txt",
+    "static/js/3.f5fe0aaa.chunk.js.LICENSE.txt": "/static/js/3.f5fe0aaa.chunk.js.LICENSE.txt",
+    "static/js/4.a615c6e3.chunk.js.LICENSE.txt": "/static/js/4.a615c6e3.chunk.js.LICENSE.txt",
+    "static/js/5.524c4fef.chunk.js.LICENSE.txt": "/static/js/5.524c4fef.chunk.js.LICENSE.txt",
+    "static/media/image-a.b05abed1.jpg": "/static/media/image-a.b05abed1.jpg",
+    "static/media/image-b.bc8a631a.jpg": "/static/media/image-b.bc8a631a.jpg",
+    "static/media/image-c.25698148.jpg": "/static/media/image-c.25698148.jpg",
+    "static/media/image-d.213384ea.jpg": "/static/media/image-d.213384ea.jpg",
+    "static/media/image14.e5437f66.jpg": "/static/media/image14.e5437f66.jpg",
+    "static/media/loading.10625dac.gif": "/static/media/loading.10625dac.gif",
+    "static/media/pharm.98ecef87.jpg": "/static/media/pharm.98ecef87.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c45f7dbe.js",
+    "static/css/2.ecdd39c8.chunk.css",
+    "static/js/2.35944125.chunk.js",
+    "static/css/main.d3fac2a1.chunk.css",
+    "static/js/main.c7ce9f3c.chunk.js"
+  ]
+}
